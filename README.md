@@ -13,11 +13,11 @@ go
 package main
 
 import (
-	"fmt"
 
 	"github.com/eselemu/hello_modules"
 )
 
 func main() {
-	fmt.Printf(hello_modules.RandomHello(), "David")
+  result := sum(5, 3)
+  fmt.Println(result)
 }
