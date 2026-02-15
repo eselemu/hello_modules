@@ -3,21 +3,29 @@
 This is a repo to test Golang Modules
 
 ## Installation
-Execute the following command:
-bash
-go get -u github.com/eselemu/hello_modules
+### Create a new directory for your project
+mkdir myproject
+cd myproject
 
+### Initialize a new Go module
+go mod init myproject
 
-## Usage
-go
+### Download and install the module
+go get github.com/eselemu/hello_modules
+
+### Run the main program
+go run main.go
+
+## Program example
 package main
 
 import (
-
-	"github.com/eselemu/hello_modules"
+    "fmt"
+    
+    "github.com/eselemu/hello_modules"
 )
 
 func main() {
-  result := sum(5, 3)
-  fmt.Println(result)
+    result := hello_modules.Sum(5, 3)
+    fmt.Println(result) // Output: 8
 }
