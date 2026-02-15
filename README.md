@@ -3,9 +3,9 @@
 This is a repo to test Golang Modules
 
 ## Installation
-Execute the following commandÑ
+Execute the following command:
 bash
-go get -u github.com/davidct9/Go_Modules
+go get -u github.com/eselemu/hello_modules
 
 
 ## Usage
